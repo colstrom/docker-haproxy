@@ -22,6 +22,8 @@ docker run -d -P colstrom/haproxy
 Configuration
 -------------
 
+The configuration used in this image can be found at `example/haproxy.cfg`.
+
 Overwrite `haproxy.cfg` at build time in a descendent image.
 
 ```
