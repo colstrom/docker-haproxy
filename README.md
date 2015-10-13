@@ -3,9 +3,13 @@ docker-haproxy
 
 A TCP/HTTP reverse proxy for high availability environments
 
-Tags
-----
-  * `latest`
+Exposed Ports
+-------------
+  * 5000
+
+Volumes
+-------
+  * `/etc/haproxy`
 
 License
 -------
