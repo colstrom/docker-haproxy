@@ -8,7 +8,9 @@ A TCP/HTTP reverse proxy for high availability environments
 
 ## Volumes
 
-* `/etc/haproxy`
+| Location       | Description
+|----------------|------------
+| `/etc/haproxy` | Store configuration files here
 
 ## Usage
 
