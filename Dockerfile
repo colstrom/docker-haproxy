@@ -1,4 +1,4 @@
-FROM colstrom/alpine:main
+FROM colstrom/alpine
 RUN apk-install haproxy
 EXPOSE 5000
 VOLUME ["/etc/haproxy"]
